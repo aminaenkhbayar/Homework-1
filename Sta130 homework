@@ -1,0 +1,21 @@
+import pandas as pd
+url = "https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-05-05/villagers.csv"
+df = pd.read_csv(url)
+df.isna().sum()
+
+
+import pandas as pd
+
+# Load the dataset
+url = "https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-05-05/villagers.csv"
+data = pd.read_csv(url)
+
+# Display the column names
+print(data.columns)
+
+# Display the number of rows and columns
+print(data.shape)
+
+
+
+
